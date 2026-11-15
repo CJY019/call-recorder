@@ -1,0 +1,24 @@
+[
+  {
+    "file": "Apache-2.0.txt",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "Tcl-8.6.15-license.terms",
+    "url": "https://raw.githubusercontent.com/tcltk/tcl/core-8-6-15/license.terms",
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "file": "PortAudio-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/s0d3s/PyAudioWPatch/8b68e78c31dd1e12e9c603901b8cd0d9d6510b2a/portaudio_v19/LICENSE.txt",
+    "sha256": "ec52a1952d701f94e5135719a47376da4ee0b4a0201f1cafb49f61db6480ac3d"
+  },
+  {
+    "file": "PyAudioWPatch-module-source-header.txt",
+    "url": "https://raw.githubusercontent.com/s0d3s/PyAudioWPatch/8b68e78c31dd1e12e9c603901b8cd0d9d6510b2a/src/_portaudiomodule.c",
+    "excerpt": "Complete first comment block: original PyAudio copyright and MIT license.",
+    "upstream_file_sha256": "afd21d8acba7f3bbb079c147a009ca1cfd74ac632454c0ba1df8b7f8870443bf",
+    "sha256": "4582adcaa02ead6af4878a9309fd305842f29dd989719299b9fbcec236a3f20b"
+  }
+]

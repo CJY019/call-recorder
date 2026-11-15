@@ -1,0 +1,3 @@
+# Independent recorder dependencies; no course-processing packages required.
+numpy>=1.26,<3
+PyAudioWPatch==0.2.12.9; sys_platform == "win32"

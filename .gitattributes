@@ -1,0 +1,4 @@
+# These files are retained byte-for-byte and checked against upstream SHA-256.
+/packaging/ChineseSimplified.isl -text
+/packaging/inno-license.txt -text
+/packaging/licenses/** -text

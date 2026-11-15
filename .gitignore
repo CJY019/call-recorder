@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Test and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+packaging/_build/
+*.egg-info/
+CallRecorder-Setup-*-x64.exe
+
+# Local logs and recordings
+*.log
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.aac
+*.flac
+*.ogg
+*.opus
+*.wma
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+
+

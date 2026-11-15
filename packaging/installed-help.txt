@@ -1,0 +1,20 @@
+﻿通话录音
+
+本安装包已包含 Python、Tkinter、NumPy 与 PyAudioWPatch，无需另装 Python。
+支持 Windows 10（1809 或更新版本）与 Windows 11 的 x64 环境。
+
+启动后选择电脑播放设备，按需勾选“录制我的麦克风”，点击“开始录音”。
+默认录音保存在用户“音乐”文件夹下的“通话录音”，也可以在窗口中更改。
+默认实际路径：%USERPROFILE%\Music\通话录音。
+所选播放设备上的所有应用声音都会录入，请选择合适的播放设备。
+这里的麦克风开关只影响录音，不会跟随通话软件内部的静音状态。
+程序只在点击开始后录音，不会把麦克风声音播放到耳机。
+
+安装仅针对当前用户。卸载不会删除录音、用户设置或诊断日志。
+用户设置：%LOCALAPPDATA%\CallRecorder\settings.json
+启动诊断：%LOCALAPPDATA%\CallRecorder\logs\startup.log
+安装日志：安装器会在 Windows 临时目录写入 Setup Log 日志；排查时可用
+  CallRecorder-Setup-0.1.0-x64.exe /LOG="C:\自选目录\CallRecorder-install.log"
+
+LICENSE 和 THIRD_PARTY_NOTICES.md 随程序安装，第三方完整许可位于
+_internal\licenses。构建版本与依赖清单位于 _internal\build-info.json。
